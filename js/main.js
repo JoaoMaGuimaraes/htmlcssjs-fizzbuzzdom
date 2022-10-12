@@ -2,7 +2,7 @@ let container = document.getElementById("container"); // CONTAINER VARIABLE - GE
 
 for (let i = 1; i <= 100; i++) {
   //INCREMENT I UNTIL 100
-  if(i % 3 == 0 && i % 5 == 0) { 
+  if(i % 3 == 0 && i % 15 == 0) { 
     // The index boxes divisible by 3 and by 15 must print the FizzBuzz
     container.innerHTML += '<div class="square fizzbuzz">fizzbuzz</div>';
   } else if (i % 3 == 0) {
