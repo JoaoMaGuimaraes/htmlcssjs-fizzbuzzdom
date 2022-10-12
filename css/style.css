@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #083b4c;
+  text-align: center;
+  font-size: 10px;
+}
+
+h1 {
+  font-size: 28px;
+  color: white;
+  margin: 0px;
+}
+
+#container {
+  margin: 0 auto;
+  width: 34%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px 16px;
+}
+
+.square {
+  height: 80px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1389b2;
+}
+
+.fizz {
+  background-color: #0ad6a1;
+}
+
+.buzz {
+  background-color: #ffd166;
+}
+
+.fizzbuzz {
+  background-color: #f0466f;
+}
